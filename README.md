@@ -43,7 +43,7 @@ REACT_APP_TOKEN= // YOUR API TOKEN
  npm install
  ```
  
- ## Start This App in Your Server
+ ## Runs the app in the development mode
  ``` 
  npm run start
  ```
