@@ -1,5 +1,5 @@
-<img src="https://ibb.co/x17v5j1" width="100%"></img>
 
+(https://ibb.co/x17v5j1)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
