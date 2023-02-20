@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,142 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200&family=Signika&family=Titillium+Web:wght@300&display=swap");
+body {
+  background-color: #282c34;
 }
+#searchMovie {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+#searchMovie #input {
+  width: 100%;
+  padding: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+
+  border-radius: 8px;
+}
+#searchMovie #findSearch {
+  padding: 10px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  border-radius: 7px;
+}
+.App {
+  width: 90%;
+
+  margin: auto;
+}
+.App .heading {
+  color: rgb(255, 0, 55);
+}
+.App .judul {
+  text-align: center;
+  margin: 10vh 0;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.App-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  padding: 15px;
+  display: flex;
+  background: #222427;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.card .images {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card .images img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s all;
+}
+.card:hover .images img {
+  transform: scale(1.05);
+  opacity: 0.7;
+}
+
+.card .title {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+.card .title ul {
+  margin: 10px 0 0 0;
+  list-style: none;
+  padding: 0;
+}
+.card .title li .cardTitle {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Signika", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+}
+.card .title ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.card .title li .cardRelease {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Signika", sans-serif;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.card:hover .title li span {
+  color: rgba(255, 251, 0, 0.7);
+}
+
+.card .title li .TitleDisable {
+  font-size: 0.9em;
+}
+
+footer {
+  position: relative;
+  /* display: none; */
+  bottom: 0;
+  margin-top: 10vh;
+  background: rgb(34, 33, 33);
+  padding: 20px;
+  width: 100%;
+}
+
+footer .copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer .copyright p {
+  color: rgb(187, 184, 184);
+  font-size: 0.8em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 10px;
+}
+/* footer .copyright p:last-child {
+  margin-top: -15px;
+} */
