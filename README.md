@@ -1,4 +1,4 @@
-<a href="https://ibb.co/x17v5j1"><img src="https://i.ibb.co/X7CBJs7/Screenshot-2023-02-20-151353.png" alt="Screenshot-2023-02-20-151353" border="0"></a>
+<a href="https://ibb.co/x17v5j1"><img src="https://i.ibb.co/X7CBJs7/Screenshot-2023-02-20-151353.png" alt="Screenshot-2023-02-20-151353" border="0" width="100%"></a>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
