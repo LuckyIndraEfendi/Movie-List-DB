@@ -1,4 +1,4 @@
-<img src="https://ibb.co/x17v5j1"></img>
+<img src="https://ibb.co/x17v5j1" width="100%"></img>
 
 # Getting Started with Create React App
 
