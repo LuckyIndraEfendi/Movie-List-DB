@@ -1,5 +1,4 @@
-
-(https://ibb.co/x17v5j1)
+[(https://ibb.co/x17v5j1)]
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
