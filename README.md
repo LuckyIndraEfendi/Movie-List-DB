@@ -16,7 +16,7 @@ git clone https://github.com/LuckyIndraEfendi/Movie-List-DB.git
 
 ### Go to Directory Folder from Movie-List and Run 
 ```html
-cd Movie-List
+cd Movie-List-DB
 ```
 ### Create `.env` file
 ```html
