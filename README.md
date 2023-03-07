@@ -9,6 +9,16 @@ Documentation TMDB API : <a href="https://www.themoviedb.org/documentation/api">
 
 ## Before Clone This App Please Read Documentation⚠️⚠️
 
+### Pre-Requirment
+> If you are using Amazon Linux as Operating System you can install nodejs packages with this following command:
+```sh
+$ sudo yum install -y gcc-c++ make
+$ curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+$ npm install nodejs git -y
+$ npm install serve -g
+$ npm install pm2 -g
+```
+
 ### Clone This Repository 
 ```html
 git clone https://github.com/LuckyIndraEfendi/Movie-List-DB.git
@@ -18,7 +28,9 @@ git clone https://github.com/LuckyIndraEfendi/Movie-List-DB.git
 ```html
 cd Movie-List-DB
 ```
-### Create `.env` file
+### Environment Setup
+
+## Create `.env` file
 ```html
 touch .env
  ```
